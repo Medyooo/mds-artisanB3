@@ -1,5 +1,5 @@
 import ProfileHeader from '../../components/profile/ProfileHeader'
-import ProfileInfos from '../../components/profile/profileInfos'
+import ProfileInfos from '../../components/profile/ProfileInfos'
 import Sidebar from '../../components/sidebar/Sidebar'
 import Wishlist from '../../components/wishlist/Wishlist'
 
