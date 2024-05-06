@@ -28,7 +28,7 @@ function Dashboard () {
       const fetchProducts = async () => {
         setProductsLoading(true)
         try {
-          const response = await fetch(`http://localhost:1337/api/products?filters[artisan][name][$eq]=${artisanSlug}&populate=*`)
+          const response = await fetch(process.env.REACT_APP_API_URL + `/products?filters[artisan][name][$eq]=${artisanSlug}&populate=*`)
           const data = await response.json()
           setProducts(data)
         } catch (error) {

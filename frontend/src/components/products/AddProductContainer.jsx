@@ -68,7 +68,7 @@ const AddProductContainer = () => {
     }))
 
     try {
-      const response = await fetch('http://localhost:1337/api/products', {
+      const response = await fetch(process.env.REACT_APP_API_URL + '/products', {
         method: 'POST',
         headers: {
           Authorization: `Bearer ${jwt} `

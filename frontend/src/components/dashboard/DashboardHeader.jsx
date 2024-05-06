@@ -35,12 +35,12 @@ const DashboardHeader = ({ artisanImg }) => {
             <div className='text text-white font-bold'>Dashboard</div>
           </Link>
         </div>
-        <div className=' relative top-48 flex flex-row justify-start items-center gap-4 w-full h-28  bg-slate-50/[.6] backdrop-blur-xl rounded-xl shadow-lg px-5 '>
-          <div className=' h-20 w-20 rounded-xl'>
+        <div className=' relative top-48 flex flex-row justify-start items-center gap-4 w-full h-32  bg-slate-50/[.6] backdrop-blur-xl rounded-xl shadow-lg px-5 '>
+          <div className=' flex items-center h-20 w-20 rounded-xl'>
             <img
               src={profilePictureUrl}
               alt='profilePicture'
-              className='rounded-lg'
+              className='rounded-lg '
             />
           </div>
           <div className='flex flex-col gap-2'>
